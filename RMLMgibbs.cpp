@@ -11,13 +11,12 @@ using namespace Rcpp;
 // [[Rcpp::depends(RcppEigen)]]
 using namespace Eigen;
 
-
 //' single Wishard distribution simulation
 //' @description
-//' random Wishard distribution generation
-//' @params SigmaIL the random generated matrix 
-//' @params nu the degree of freedom parameter in Wishard distribution
-//' @params d the underline matrix dimension
+//' One single random Wishard distribution generation
+//' @params sigma the random generated matrix 
+//' @params nu the degree of freedom in the Wishard distribution
+//' @params q the underline matrix dimension
 //' @params LLSigma the LLT object for Psi 
 //' @details ...
 //' @return Wishard matrix
